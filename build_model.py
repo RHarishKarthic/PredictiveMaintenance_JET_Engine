@@ -19,9 +19,9 @@ sensor_names = ['s_{}'.format(i) for i in range(1, 22)]
 col_names = index_names + setting_names + sensor_names
 
 # Load FD001
-train_df = pd.read_csv('train_FD001.txt', sep=r'\s+', header=None, names=col_names)
-test_df = pd.read_csv('test_FD001.txt', sep=r'\s+', header=None, names=col_names)
-y_test = pd.read_csv('RUL_FD001.txt', sep=r'\s+', header=None, names=['RUL'])
+train_df = pd.read_csv('CMAPSSData/train_FD001.txt', sep=r'\s+', header=None, names=col_names)
+test_df = pd.read_csv('CMAPSSData/test_FD001.txt', sep=r'\s+', header=None, names=col_names)
+y_test = pd.read_csv('CMAPSSData/RUL_FD001.txt', sep=r'\s+', header=None, names=['RUL'])
 
 print(f"Training data: {train_df.shape}")
 print(f"Testing data: {test_df.shape}")
