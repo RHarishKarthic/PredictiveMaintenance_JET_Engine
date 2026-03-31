@@ -4,7 +4,7 @@ A comprehensive machine learning system for predicting the Remaining Useful Life
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
@@ -23,21 +23,21 @@ A comprehensive machine learning system for predicting the Remaining Useful Life
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 **Objective:** Build a machine learning pipeline to predict the Remaining Useful Life (RUL) of aircraft turbofan engines before failure occurs, enabling predictive maintenance scheduling.
 
 **Impact:**
-- 🛡️ **Safety:** Identify engine degradation early to prevent catastrophic failures
-- 💰 **Cost Reduction:** Optimize maintenance schedules and reduce unplanned downtime
-- ⚙️ **Efficiency:** Better allocation of maintenance resources and spare parts
-- 🌍 **Sustainability:** Improve fuel efficiency through better-maintained engines
+- **Safety:** Identify engine degradation early to prevent catastrophic failures
+- **Cost Reduction:** Optimize maintenance schedules and reduce unplanned downtime
+- **Efficiency:** Better allocation of maintenance resources and spare parts
+- **Sustainability:** Improve fuel efficiency through better-maintained engines
 
 **Dataset:** NASA CMAPSS (Commercial Modular Aero-Propulsion System Simulation) - run-to-failure engine degradation data with multiple operational conditions and fault modes.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. **Data Pipeline**
 - Automated loading and preprocessing of NASA CMAPSS datasets (FD001-FD004)
@@ -70,7 +70,7 @@ A comprehensive machine learning system for predicting the Remaining Useful Life
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 The **NASA CMAPSS FD001** dataset (used in this project) contains:
 
@@ -94,7 +94,7 @@ The **NASA CMAPSS FD001** dataset (used in this project) contains:
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -135,7 +135,7 @@ The **NASA CMAPSS FD001** dataset (used in this project) contains:
 
 ---
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 ### **Programming Languages**
 - **Python 3.10+** - Core development language
@@ -160,7 +160,7 @@ The **NASA CMAPSS FD001** dataset (used in this project) contains:
 
 ---
 
-## 📥 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+ installed on your system
@@ -212,7 +212,7 @@ pip list | findstr "pandas scikit-learn xgboost streamlit"
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### **Option 1: Quick Start (Recommended)**
 Double-click the batch file to run everything:
@@ -288,7 +288,7 @@ Creates `ML_Project_Report.docx` with:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 PredictiveMaintenance_JET_Engine/
@@ -319,7 +319,7 @@ PredictiveMaintenance_JET_Engine/
 
 ---
 
-## 👥 Team Contributions
+## Team Contributions
 
 This project was developed by a team of 4 members with distinct roles:
 
@@ -332,7 +332,7 @@ This project was developed by a team of 4 members with distinct roles:
 
 ---
 
-## 📈 Results & Performance
+## Results & Performance
 
 ### Model Performance Metrics
 
@@ -362,7 +362,7 @@ This project was developed by a team of 4 members with distinct roles:
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 ### **Phase 1: Training (build_model.py)**
 
@@ -401,7 +401,7 @@ This project was developed by a team of 4 members with distinct roles:
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### **Model Improvements**
 1. **Deep Learning Integration**
@@ -443,7 +443,7 @@ This project was developed by a team of 4 members with distinct roles:
 
 ---
 
-## 📚 References
+## References
 
 ### Academic Papers
 1. **Saxena, A., Goebel, K., Simon, D., & Eklund, N.** (2008)
@@ -467,7 +467,7 @@ This project was developed by a team of 4 members with distinct roles:
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 A `requirements.txt` file with all dependencies (generate with `pip freeze`):
 
@@ -491,7 +491,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Tips & Troubleshooting
+## Tips & Troubleshooting
 
 ### **Issue: "FileNotFoundError: train_FD001.txt not found"**
 - **Solution:** Ensure `CMAPSSData/` folder exists with dataset files in the same directory as `build_model.py`
@@ -512,7 +512,7 @@ streamlit run app.py --server.port 8502
 
 ---
 
-## 📝 Notes
+## Notes
 
 - All models are trained on FD001 dataset (single condition, single fault mode)
 - Dataset includes realistic sensor noise for practical modeling
@@ -521,7 +521,7 @@ streamlit run app.py --server.port 8502
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 To contribute improvements:
 1. Fork the repository
@@ -532,13 +532,13 @@ To contribute improvements:
 
 ---
 
-## 📄 License
+## License
 
 This project uses the NASA CMAPSS dataset. Please respect the dataset citation and license terms from NASA's Prognostics Data Repository.
 
 ---
 
-## 📞 Support
+## Support
 
 For questions or issues:
 - Check the "About the Data" section in the Streamlit app
@@ -547,7 +547,7 @@ For questions or issues:
 
 ---
 
-## ✅ Quick Checklist
+## Quick Checklist
 
 Before using this project, ensure:
 - [ ] Python 3.8+ installed
@@ -558,7 +558,7 @@ Before using this project, ensure:
 
 ---
 
-**Project Status:** ✅ Complete & Production-Ready
+**Project Status:** Complete & Production-Ready
 
 **Last Updated:** April 1, 2026
 
@@ -566,4 +566,4 @@ Before using this project, ensure:
 
 ---
 
-Enjoy exploring predictive maintenance! 🚀✈️
+Enjoy exploring predictive maintenance!
